@@ -96,9 +96,13 @@ body {
 .form {
     /* Apenas para centralizar o form na página */
     margin: 0 auto;
-    width: 500px;
+    width: 550px;
     /* Para ver as bordas do formulário */
     padding: 1em;
     border: 1px solid #ccc;
-    border-radius: 1em;
+    border-radius: 2em;
+    /*incluindo a padronização do plano de findo*/
+    background-color: var(--color-neutral-3);
+    color: var(--color-neutral-1);
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.323);
   }
