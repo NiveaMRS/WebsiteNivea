@@ -8,78 +8,63 @@
     <title>KPI Enterview</title>
 </head>
 <body>
-    <form>
-        <div>
+  <div>
+        <form>
             <p> 
-                1. Selecione os processos que deseja incluir na solução:
+                1. Selecione a(s) ferramenta(s) de visualização desejada(s):
             </p>
-            <input type="radio" id="processo-FA" name="processo-FA" value="FeA">
-            <label for="FeA"></label>F&A</label><br>
-            <input type="radio" id="processo-HTR" name="processo-HTR" value="HTR">
-            <label for="HTR"></label>HTR</label><br>
-            <input type="radio" id="processo-PRC" name="processo-PRC" value="Procurement">
-            <label for="Procurement"></label>Procurement</label><br>
-            <input type="radio" id="processo-RET" name="processo-RET" value="Real Estate">
-            <label for="Real Estate"></label>Real Estate</label><br>
-        </div>
-        <div>
+            <input type="checkbox" id="processo-PBI" name="processo-1" value="Power BI">
+            <label for="Power BI"></label>Power BI</label>
+            <input type="checkbox" id="processo-TBL" name="processo-1" value="Tableau">
+            <label for="Tableau"></label>Tableau</label>
+            <input type="checkbox" id="processo-LKR" name="processo-1" value="Looker">
+            <label for="Looker"></label>Looker</label>
+            <input type="checkbox" id="processo-QLK" name="processo-1" value="Qlik">
+            <label for="Qlik"></label>Qlik</label>
+            <p>
+               2. Selecione o(s) Banco de dados desejado(s):
+            </p>
+            <input type="checkbox" id="processo-SRV" name="processo-2" value="SQL Server">
+            <label for="SQL Server"></label>SQL Server</label>
+            <input type="checkbox" id="processo-MQL" name="processo-2" value="My Sql">
+            <label for="My Sql"></label>My Sql</label>
+            <input type="checkbox" id="processo-BIG" name="processo-2" value="Big Query">
+            <label for="Big Query"></label>Big Query</label>
+            <p>
+                3. A INTRA será do cliente ou da contratada:
+            </p>
+            <input type="radio" id="processo-CLI" name="processo-3" value="Sim">
+            <label for="cliente"></label>Cliente</label>
+            <input type="radio" id="processo-CTR" name="processo-3" value="Não">
+            <label for="contratada"></label>Contratada</label>
+            <input type="radio" id="processo-MST" name="processo-3" value="Não">
+            <label for="mista"></label>Mista</label>
             <p> 
-                2. Selecione os sub-processos:
+                4. O cliente escolheu KPI personalizado:
             </p>
-            <input type="radio" id="processo-RH" name="processo-RH" value="RH">
-            <label for="RH"></label>RH</label><br>
-            <input type="radio" id="processo-POP" name="processo-POP" value="Procurement Procops">
-            <label for="Procurement Procops"></label>Procurement Procops</label><br>
-            <input type="radio" id="processo-RTR" name="processo-RTR" value="RTR">
-            <label for="RTR"></label>RTR</label><br>
-            <input type="radio" id="processo-OTC" name="processo-OTC" value="OTC">
-            <label for="OTC"></label>OTC</label><br>
-            <input type="radio" id="processo-PTP" name="processo-PTP" value="PTP">
-            <label for="PTP"></label>PTP</label><br>
-        </div>
-        <div>
+            <input type="checkbox" id="processo-K-SIM" name="processo-4" value="Sim">
+            <label for="Sim"></label>Sim</label>
+            <input type="checkbox" id="processo-K-NAO" name="processo-4" value="Não">
+            <label for="Custom"></label>Não</label>
             <p> 
-                2. Selecione os sub-processos:
+                5. Selecione as opções de Dashboard:
             </p>
-            <input type="radio" id="processo-RH" name="processo-RH" value="RH">
-            <label for="RH"></label>RH</label><br>
-            <input type="radio" id="processo-POP" name="processo-POP" value="Procurement Procops">
-            <label for="Procurement Procops"></label>Procurement Procops</label><br>
-            <input type="radio" id="processo-RTR" name="processo-RTR" value="RTR">
-            <label for="RTR"></label>RTR</label><br>
-            <input type="radio" id="processo-OTC" name="processo-OTC" value="OTC">
-            <label for="OTC"></label>OTC</label><br>
-            <input type="radio" id="processo-PTP" name="processo-PTP" value="PTP">
-            <label for="PTP"></label>PTP</label><br>
-        </div>
-        <div>
+            <input type="checkbox" id="processo-STD" name="processo-5" value="Standard">
+            <label for="Standard"></label>Standard</label>
+            <input type="checkbox" id="processo-CST" name="processo-5" value="Custom">
+            <label for="Custom"></label>Custom</label>
             <p> 
-                3. Selecione as opções Pack:
+                6. Selecione os processos que deseja incluir na solução:
             </p>
-            <input type="radio" id="processo-STD" name="processo-STD" value="Standard">
-            <label for="Standard"></label>Standard</label><br>
-            <input type="radio" id="processo-CST" name="processo-CST" value="Custom">
-            <label for="Custom"></label>Custom</label><br>
-        </div>
-        <div>
-            <p> 
-                4. O cliente Possui INFRA local:
-            </p>
-            <input type="radio" id="processo-I-SIM" name="processo-I-SIM" value="Sim">
-            <label for="Sim"></label>Sim</label><br>
-            <input type="radio" id="processo-I-NAO" name="processo-I-NAO" value="Não">
-            <label for="Custom"></label>Não</label><br>
-        </div>
-        <div>
-            <p> 
-                5. O cliente escolheu KPI custom:
-            </p>
-            <input type="radio" id="processo-K-SIM" name="processo-K-SIM" value="Sim">
-            <label for="Sim"></label>Sim</label><br>
-            <input type="radio" id="processo-K-NAO" name="processo-K-NAO" value="Não">
-            <label for="Custom"></label>Não</label><br>
-        </div>
-    </form>
+            <input type="checkbox" id="processo-FA" name="processo-6" value="FeA">
+            <label for="FeA"></label>F&A</label>
+            <input type="checkbox" id="processo-HTR" name="processo-6" value="HTR">
+            <label for="HTR"></label>HTR</label>
+            <input type="checkbox" id="processo-PRC" name="processo-6" value="Procurement">
+            <label for="Procurement"></label>Procurement</label>
+            <input type="checkbox" id="processo-RET" name="processo-6" value="Real Estate">
+            <label for="Real Estate"></label>Real Estate</label> 
+        </form>
     </div>
         <div class="button">
         <button type="submit">Enviar o formulário</button>
