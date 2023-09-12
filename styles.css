@@ -106,3 +106,7 @@ body {
     color: var(--color-neutral-1);
     box-shadow: 10px 10px 10px rgba(0,0,0,0.323);
   }
+
+h2, h4 {
+    text-align: center;
+}
