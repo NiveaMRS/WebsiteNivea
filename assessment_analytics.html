@@ -9,9 +9,10 @@
 </head>
 <body>
   <div class="input-container">
-    <h2>Pré-assessment Required</h2>
-    <h4>Preencha os campos abaixo de acordo com a Entrevista.</h4>
         <form class="form">
+            <h2>Assessment Required</h2>
+    <h4>Preencha os campos abaixo de acordo com a Entrevista.</h4>
+    <hr> <br>
             <p> 
                 1. Selecione a(s) ferramenta(s) de visualização desejada(s):
             </p>
@@ -35,7 +36,7 @@
             <label for="Big Query"></label>Big Query</label>
             <br><br>
             <p>
-                3. A INTRA será do cliente ou da contratada:
+                3. A INFRA será do cliente ou da contratada:
             </p>
             <input type="radio" id="processo-CLI" name="processo-3" value="Sim">
             <label for="cliente"></label>Cliente</label>
@@ -59,6 +60,8 @@
             <label for="Standard"></label>Standard</label>
             <input type="radio" id="processo-CST" name="processo-5" value="Custom">
             <label for="Custom"></label>Custom</label>
+            <input type="radio" id="processo-MSA" name="processo-5" value="Mista">
+            <label for="Mista"></label>Mista</label>
             <br><br>
             <p> 
                 6. Selecione os processos que deseja incluir na solução:
@@ -70,7 +73,9 @@
             <input type="checkbox" id="processo-PRC" name="processo-6" value="Procurement">
             <label for="Procurement"></label>Procurement</label>
             <input type="checkbox" id="processo-RET" name="processo-6" value="Real Estate">
-            <label for="Real Estate"></label>Real Estate</label> 
+            <label for="Real Estate"></label>Real Estate</label>
+            <input type="checkbox" id="processo-NET" name="processo-6" value="Real Estate">
+            <label for="Network"></label>Network</label>  
             <br><br>
         <div class="button">
              <button id="calculate" type="submit">Enviar o formulário</button>
