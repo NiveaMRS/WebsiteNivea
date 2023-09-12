@@ -8,8 +8,10 @@
     <title>KPI Enterview</title>
 </head>
 <body>
-  <div>
-        <form>
+  <div class="input-container">
+    <h2>Pré-assessment Required</h2>
+    <h4>Preencha os campos abaixo de acordo com a Entrevista.</h4>
+        <form class="form">
             <p> 
                 1. Selecione a(s) ferramenta(s) de visualização desejada(s):
             </p>
@@ -21,6 +23,7 @@
             <label for="Looker"></label>Looker</label>
             <input type="checkbox" id="processo-QLK" name="processo-1" value="Qlik">
             <label for="Qlik"></label>Qlik</label>
+            <br><br>
             <p>
                2. Selecione o(s) Banco de dados desejado(s):
             </p>
@@ -30,6 +33,7 @@
             <label for="My Sql"></label>My Sql</label>
             <input type="checkbox" id="processo-BIG" name="processo-2" value="Big Query">
             <label for="Big Query"></label>Big Query</label>
+            <br><br>
             <p>
                 3. A INTRA será do cliente ou da contratada:
             </p>
@@ -37,22 +41,25 @@
             <label for="cliente"></label>Cliente</label>
             <input type="radio" id="processo-CTR" name="processo-3" value="Não">
             <label for="contratada"></label>Contratada</label>
-            <input type="radio" id="processo-MST" name="processo-3" value="Não">
+            <input type="radio" id="processo-MST" name="processo-3" value="Mista">
             <label for="mista"></label>Mista</label>
+            <br><br>
             <p> 
                 4. O cliente escolheu KPI personalizado:
             </p>
-            <input type="checkbox" id="processo-K-SIM" name="processo-4" value="Sim">
+            <input type="radio" id="processo-K-SIM" name="processo-4" value="Sim">
             <label for="Sim"></label>Sim</label>
-            <input type="checkbox" id="processo-K-NAO" name="processo-4" value="Não">
+            <input type="radio" id="processo-K-NAO" name="processo-4" value="Não">
             <label for="Custom"></label>Não</label>
+            <br><br>
             <p> 
                 5. Selecione as opções de Dashboard:
             </p>
-            <input type="checkbox" id="processo-STD" name="processo-5" value="Standard">
+            <input type="radio" id="processo-STD" name="processo-5" value="Standard">
             <label for="Standard"></label>Standard</label>
-            <input type="checkbox" id="processo-CST" name="processo-5" value="Custom">
+            <input type="radio" id="processo-CST" name="processo-5" value="Custom">
             <label for="Custom"></label>Custom</label>
+            <br><br>
             <p> 
                 6. Selecione os processos que deseja incluir na solução:
             </p>
@@ -64,9 +71,11 @@
             <label for="Procurement"></label>Procurement</label>
             <input type="checkbox" id="processo-RET" name="processo-6" value="Real Estate">
             <label for="Real Estate"></label>Real Estate</label> 
-        </form>
-    </div>
+            <br><br>
         <div class="button">
-        <button type="submit">Enviar o formulário</button>
+             <button id="calculate" type="submit">Enviar o formulário</button>
+             <br>
+        </div>
+     </form>
     </div>
 </body>

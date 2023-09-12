@@ -96,7 +96,7 @@ body {
 .form {
     /* Apenas para centralizar o form na página */
     margin: 0 auto;
-    width: 400px;
+    width: 500px;
     /* Para ver as bordas do formulário */
     padding: 1em;
     border: 1px solid #ccc;
